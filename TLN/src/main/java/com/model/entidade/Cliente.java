@@ -8,14 +8,14 @@ public class Cliente {
     private String cpf;
     private int identidade;
     private String DTNasc;
-
+    
     public Cliente(String Nome, String email, String cpf, int identidade, String DataNascimento) {
         this.Nome = Nome;
         this.email = email;
         this.cpf = cpf;
         this.identidade = identidade;
         this.DTNasc = DataNascimento;
-    }
+}
 
     public String getNome() {
         return Nome;
